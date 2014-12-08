@@ -1,48 +1,110 @@
 /* Your Website Styles */
 
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+nav{
+  text-align: right;
+ float: right;
+ text-decoration: none;
+ padding-top: 20px;
+  background-color: #030003;
+  background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 
+}
+div#background {
+
+  height: 700px;
+  width: 100%;
+  background-color: #030003;
+  background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
+  padding-top: 100px;
+}
+
+div#gallery {
+  width: 800px;
+  margin: auto;
+}
+
+
+#background img {
+  height: 150px;
+  margin: 0px;
+}
+
+#background figure {
+  float: left;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 2px 3px black;
+}
+
+figure.pic1 {
+  border-radius: 8px;
+  transform : rotate(-10deg);
+  
+}
+
+figure.pic2 {
+  border-radius: 8px;
+  transform : rotate(15deg);
+  
+}
+
+figure.pic3 {
+  color:black;
+  border-radius: 8px;
+  transform : rotate(-25deg);
+ 
+}
+
+figure.pic4, figure.pic5 {
+  border-radius: 8px;
+  transform : rotate(10deg);
+
+}
+
+figure.pic6 {
+  border-radius: 8px;
+  transform : rotate(-8deg);
+
+}
+
+figure.pic7 {
+  border-radius: 8px;
+  transform : rotate(-16deg);
+ 
+}
+
+
+.figure {
+   font-size:.66em ;
+  position: absolute;
+  bottom: -60px;
+  transition: bottom 1s;
+  background-color: black;
+}
+
+.figcaption:hover p {
+  bottom: 0;
+}
+
+#background figure:hover {
+
+color:black;
+  box-shadow: 20px 20px 100px black;
+  transform: scale(2.2,2.2);
+  z-index: 20;
+}
 
 /* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-  text-align: center;
-}
-
-.gallery .controls img {
-  border: 5px solid #000;
-}
-
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
+.
 }
 
 
