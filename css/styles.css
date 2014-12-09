@@ -3,7 +3,7 @@
 body {
   background-color: black;
   margin: 0px;
-  font-family: 'Cedarville Cursive', cursive;
+ font-family: 'Gravitas+One' , cursive;
 }
 nav{
   text-align: right;
@@ -16,7 +16,7 @@ nav{
 }
 div#background {
 
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-color: #030003;
   background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
@@ -95,9 +95,7 @@ figure.pic7 {
   background-color: black;
 }
 
-.figcaption:hover p {
-  bottom: 0;
-}
+
 
 #background figure:hover {
 
@@ -106,6 +104,7 @@ background-color: black;
   box-shadow: 20px 20px 100px black;
   transform: scale(1.2,2.1);
   z-index: 20;
+font-family: 'Miltonian' , cursive;
 }
 
 /* Gallery Stying */
