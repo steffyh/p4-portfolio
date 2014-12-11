@@ -1,6 +1,8 @@
 /* Your Website Styles */
 
 body {
+  background-color: #030003;
+  background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
   background-color: black;
   margin: 0px;
  font-family: 'Gravitas+One' , cursive;
@@ -12,14 +14,11 @@ nav{
  padding-top: 20px;
   background-color: #030003;
   background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
-
 }
-div#background {
 
-  height: 900px;
+div#background {
+  height: 100%;
   width: 100%;
-  background-color: #030003;
-  background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
   padding-top: 100px;
 }
 
@@ -48,23 +47,20 @@ div#gallery {
 figure.pic1 {
   border-radius: 8px;
   transform : rotate(-10deg);
-  
 }
 
 figure.pic2 {
   border-radius: 8px;
   transform : rotate(15deg);
-  
 }
 
 figure.pic3 {
   color:black;
   border-radius: 8px;
   transform : rotate(-25deg);
- 
 }
 
-figure.pic4, figure.pic5 {
+figure.pic4 {
   border-radius: 8px;
   transform : rotate(10deg);
 }
@@ -98,7 +94,6 @@ figure.pic7 {
 
 
 #background figure:hover {
-
 color:white;
 background-color: black;
   box-shadow: 20px 20px 100px black;
@@ -108,7 +103,7 @@ font-family: 'Miltonian' , cursive;
 }
 
 /* Gallery Stying */
-.
+
 }
 
 
